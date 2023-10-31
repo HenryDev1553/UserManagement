@@ -1,0 +1,92 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 15, 2023, 4:09:11 AM
+    Author     : saeququangsss
+*/
+/* Style for the table */
+body {
+    background-image: url('https://img.freepik.com/free-photo/shopping-cart-filled-with-coins-copy-space-background_23-2148305919.jpg?w=1380&t=st=1678831299~exp=1678831899~hmac=baa7c64544431b7cd0292035261d6f715137d593c419ddcc3d63899a55547e6e');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+table th, table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+table th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+
+/* Style for the form */
+form {
+  display: inline-block;
+}
+
+form input[type="submit"] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+/* Style for the total */
+.total {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+/* Style for the links */
+.links {
+  margin-top: 20px;
+}
+
+.links a {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.links a:first-child {
+  background-color: #f44336;
+}
+
+.links a:last-child {
+  background-color: #4CAF50;
+}
+ a{
+            color: blue;
+            font-family: Arial, sans-serif;
+            text-decoration: none;
+            font-size: 18px;
+            margin-right: 10px;
+            color: blue;
+            font-weight: bold;
+        }
